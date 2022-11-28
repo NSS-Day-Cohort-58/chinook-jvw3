@@ -5,7 +5,7 @@ Customer Id,
 Customer's country
 */
 
-SELECT CustomerId, FirstName, LastName, Country FROM CUSTOMER
+SELECT id, FirstName, LastName, Country FROM CUSTOMER
 WHERE Country<>"USA"
 
 
